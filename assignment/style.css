@@ -1,7 +1,11 @@
 /* Add a background color to the header element */
-
+.site-header {
+    background: #737373;
+}
 /* Add a fun background color to the main element */
-
+.main-content {
+    background: #9FB0BF;
+}
 /* Align the h1 containing your name in the center of the header*/
 
 /* Make your p tag a different color and italic */
@@ -9,5 +13,10 @@
 /* Put a border around your image */
 
 /* Change the font-family of your list */
-
+.fun-fact {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* Add a background color to the footer element */
+.footer-banner {
+    background: #D9D9D9;
+}

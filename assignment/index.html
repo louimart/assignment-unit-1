@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Change the <title> from "Page Title" to "Hello World" -->
-    <title>Unit 1 Assignment</title>
+    <title>Hello World</title>
     <!-- Used for automated testing -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.2.0/mocha.min.js" integrity="sha512-jsP/sG70bnt0xNVJt+k9NxQqGYvRrLzWhI+46SSf7oNJeCwdzZlBvoyrAN0zhtVyolGcHNh/9fEgZppG2pH+eA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.2.0/mocha.css" integrity="sha512-SjDc34mGAkSBKnNMasz1QPVustFyPQUHUO5wxzGNC5x9wQMcHwDHXCNRYowC/6DsX0lqvpCI1mKiVEQkws2olw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,19 +17,29 @@
 <body>
 
     <!-- Create a header element  -->
-
+    <header class="site-header">
     <!-- Inside the header, add an <h1> element containing your name -->
-
-    <main>
+        <h1>Louis Martin</h1>
+    </header>
+    <main class="main-content">
     <!-- Include an image -->
-
+    <div>    
+        <img src="./LouisM.jpg" alt="Profile photo of Louis M" width="250"></img>
+    </div>
     <!-- Create an unordered list with 3 list items of fun facts about you -->
-
+    <div class="fun-facts">
+        <ul>
+            <li><p>I am half Japanese and grew up in a suburb of Tokyo, Kawasaki city.</p></li>
+            <li><p>I am Japanese English bilingual and slowly picking up Russian as my children and partner are fluent in Russian.</p></li>
+            <li><p>I enjoy exploring new tech and software around digital fabrication and visualization. My latest challenge was learning Blender 3D to provide animation sequences for a drone logistics company.</p></li>
+        </ul>
+    </div>
     </main>
     <!-- Create a footer element -->
-
+    <footer class="footer-banner">
     <!-- Inside your footer, put a <p> element with your favorite quote -->
-
+        <p>"Almost always, the creative dedicated minority has made the world better." - Martin Luther King, Jr.</p>
+    </footer>
     <div id="container">
         <!-- Used for automated testing -->
         <div id="mocha"></div>
