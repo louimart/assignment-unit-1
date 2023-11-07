@@ -2,21 +2,45 @@
 .site-header {
     background: #737373;
 }
+
 /* Add a fun background color to the main element */
 .main-content {
     background: #9FB0BF;
+    padding: 25px;
 }
+
 /* Align the h1 containing your name in the center of the header*/
 
+h1 {
+    margin-block: 0;
+    padding: 25px;
+    text-align: center;
+}
+
 /* Make your p tag a different color and italic */
+.footer-banner {
+    font-style: italic;
+    color: darkcyan;
+}
 
 /* Put a border around your image */
+img {
+    border: 15px solid darkcyan;
+}
+
+.profile-photo {
+    text-align: center;
+}
 
 /* Change the font-family of your list */
 .fun-fact {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Add a background color to the footer element */
 .footer-banner {
     background: #D9D9D9;
+    margin-block: 0;
+    padding: 25px;
+    text-align: center;
 }
